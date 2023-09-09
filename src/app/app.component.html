@@ -384,18 +384,35 @@
       </div>
       <div class="card">
         <div class="card-body">
+          <h5 class="card-title">Control de Datos Seguro</h5>
+          <p class="card-text">Con EcoQuality, tus datos están protegidos. Utiliza nuestro robusto sistema de permisos
+            para decidir quién puede editar o borrar información. Tú tienes el control total de tus datos empresariales,
+            lo que te brinda tranquilidad y seguridad.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
           <h5 class="card-title">Soporte Profesional</h5>
           <p class="card-text">A pesar de la personalización, ofrecemos soporte técnico y actualizaciones para
             asegurarnos de que tu sistema esté siempre en funcionamiento.</p>
         </div>
       </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Privacidad Garantizada</h5>
+          <p class="card-text">La privacidad de tu información es primordial. En EcoQuality, solo los miembros de tu
+            empresa tienen acceso y pueden manipular la información. Tus datos están seguros y protegidos, lo que
+            garantiza la confidencialidad de tu negocio.</p>
+        </div>
+      </div>
+
     </div>
 
-   </div>
+  </div>
 
   <!-- Next Steps -->
   <h1 class="display-4 text-center">Aplicaciones</h1>
-  
+
 
   <input type="hidden" #selection>
 
@@ -403,6 +420,11 @@
     <button class="card card-small mx-2" (click)="selection.value = 'component'" tabindex="0">
       <fa-icon [icon]="icons.checkList"></fa-icon>
       <span class="ms-2">Gestión de Inventarios</span>
+    </button>
+
+    <button class="card card-small mx-2" (click)="selection.value = 'test'" tabindex="0">
+      <fa-icon [icon]="icons.helmet"></fa-icon>
+      <span class="ms-2">Sistemas Integrados de Gestión</span>
     </button>
 
     <button class="card card-small mx-2" (click)="selection.value = 'material'" tabindex="0">

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { faFacebookSquare, faTeamspeak, faTwitter, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
-import { faChartPie, faCirclePlay, faDollarSign, faListCheck, faListDots, faMoneyBill, faMoneyCheck, faPeopleGroup, faShop } from '@fortawesome/free-solid-svg-icons';
+import { faChartPie, faCirclePlay, faDollarSign, faHelmetSafety, faListCheck, faListDots, faMoneyBill, faMoneyCheck, faPeopleGroup, faShop } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +22,8 @@ export class AppComponent {
     checkList: faListCheck,
     humanRes: faPeopleGroup,
     projects: faChartPie,
-    budget: faDollarSign
+    budget: faDollarSign,
+    helmet: faHelmetSafety
   }
 
   navigateToApp(){
