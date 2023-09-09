@@ -1,0 +1,21 @@
+.banner-title {
+    position: absolute;
+    top: 51%;
+    left: 3%;
+    height: 209px;
+    width: 484px;
+    background: linear-gradient(45deg, #0000008c, #646464);
+    color: white;
+    padding: 0 15px;
+    border-radius: 10px;
+  }
+
+  .banner-title span {
+    font-size: 20px;
+    margin-left: 0.2rem;
+  }
+
+  .picsum-img-wrapper img {
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
