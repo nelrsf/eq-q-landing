@@ -1,0 +1,58 @@
+<!-- Contenido Principal con Bootstrap Container -->
+<div class="container mt-5">
+    <h1 class="display-4">Gestión de Nómina con EcoQuality</h1>
+    <p class="lead">A continuación, te explicamos cómo utilizar EcoQuality para simplificar y optimizar la gestión
+        de nómina en tu empresa.</p>
+
+    <!-- Descripción Paso a Paso -->
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Automatización de Cálculos</h2>
+            <p class="fixed-1">
+                Con EcoQuality, simplemente defines las fórmulas que deseas aplicar a tus datos de nómina. Por ejemplo,
+                puedes establecer una fórmula que calcule las bonificaciones como un porcentaje del salario base y luego
+                aplicar automáticamente esta fórmula a todos los empleados. La plataforma manejará los cálculos de
+                manera precisa y rápida, lo que ahorra tiempo y garantiza que los pagos sean precisos.
+            </p>
+            <a #toggleLink1 role="button" class="link-primary float-end" (click)="toggle(desc1, toggleLink1)">Ver más</a>
+            <p #desc1 class="desc-1">
+                Además, la flexibilidad de EcoQuality te permite ajustar y actualizar tus fórmulas en cualquier momento,
+                lo que es especialmente útil en situaciones en las que las políticas de pago cambian o evolucionan con
+                el tiempo. Esto significa que tienes el control total sobre cómo se calculan los pagos y puedes adaptar
+                tus fórmulas según tus necesidades cambiantes, sin depender de un equipo de desarrollo o servicios
+                externos.
+                <a #toggleLink role="button" class="link-primary float-end" (click)="toggle(desc1, toggleLink1)">Ver menos</a>
+            </p>
+        </div>
+        <div class="col-md-6 mt-2">
+            <img class="w-100" src="../../../assets/images/rhh/1.jpg" alt="Paso 1: Crear un Módulo de Nómina">
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6 order-2 order-md-1 mt-2">
+            <img class="w-100" src="../../../assets/images/rhh/2.jpg" alt="Paso 2: Diseñar la Tabla de Empleados">
+        </div>
+        <div class="col-md-6  order-1 order-md-2">
+            <h2>Gestión de Documentación</h2>
+
+            <p class="fixed-1">
+                La gestión de documentos relacionados con la nómina es esencial para el cumplimiento normativo y la
+                organización. EcoQuality incluye una sólida función de gestión documental que permite a los usuarios
+                cargar y adjuntar documentos relevantes, como contratos de empleados, formularios fiscales, comprobantes
+                de pago y más.
+            </p>
+            <a #toggleLink2 role="button" class="link-primary float-end" (click)="toggle(desc2, toggleLink2)">Ver más</a>
+            <p #desc2 class="desc-1">
+                Estos documentos se almacenan de forma segura y se asocian automáticamente con los
+                registros de empleados correspondientes. Esto significa que toda la información es accesible y se puede
+                recuperar fácilmente cuando sea necesario, lo que simplifica las auditorías y garantiza el cumplimiento
+                legal.
+                <a #toggleLink2 role="button" class="link-primary float-end" (click)="toggle(desc2, toggleLink2)">Ver menos</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Continuar describiendo los pasos a medida que sea necesario -->
+
+</div>

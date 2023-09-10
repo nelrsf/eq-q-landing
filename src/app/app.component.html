@@ -417,7 +417,7 @@
   <input type="hidden" #selection>
 
   <div class="card-container">
-    <button class="card card-small mx-2" (click)="selection.value = 'component'" tabindex="0">
+    <button class="card card-small mx-2" (click)="navigate('inventory')" tabindex="0">
       <fa-icon [icon]="icons.checkList"></fa-icon>
       <span class="ms-2">Gestión de Inventarios</span>
     </button>
@@ -427,7 +427,7 @@
       <span class="ms-2">Sistemas Integrados de Gestión</span>
     </button>
 
-    <button class="card card-small mx-2" (click)="selection.value = 'material'" tabindex="0">
+    <button class="card card-small mx-2" (click)="navigate('hhrr')" tabindex="0">
       <fa-icon [icon]="icons.humanRes"></fa-icon>
       <span class="ms-2">Nómina y Recursos Humanos</span>
     </button>

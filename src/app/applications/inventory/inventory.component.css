@@ -1,0 +1,16 @@
+.desc-1 {
+    display: none;
+    transition: display 1s ease;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.fixed-1, .desc-1 {
+    text-align: justify;
+}

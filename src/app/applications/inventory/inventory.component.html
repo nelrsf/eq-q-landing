@@ -1,0 +1,50 @@
+<!-- Contenido Principal con Bootstrap Container -->
+<div class="container mt-5">
+    <h1 class="display-4">Gestión de Inventarios con EcoQuality</h1>
+    <p class="lead">A continuación, te explicamos cómo utilizar EcoQuality para optimizar y simplificar la gestión de inventarios en tu empresa.</p>
+
+    <!-- Descripción Paso a Paso -->
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Control de Existencias</h2>
+            <p class="fixed-1">
+                Con EcoQuality, puedes llevar un registro detallado de tus existencias. Crea tablas de inventario con
+                columnas personalizadas, como "Nombre del Producto," "Cantidad Disponible," y "Ubicación del Almacén."
+                Mantén un seguimiento en tiempo real de tus productos y evita pérdidas innecesarias.
+            </p>
+            <a #toggleLink1 role="button" class="link-primary float-end" (click)="toggle(desc1, toggleLink1)">Ver más</a>
+            <p #desc1 class="desc-1">
+                Además, puedes configurar alertas automáticas para recibir notificaciones cuando los niveles de stock
+                estén bajos, lo que te permite reabastecer de manera oportuna y evitar interrupciones en tus operaciones.
+                <a #toggleLink1 role="button" class="link-primary float-end" (click)="toggle(desc1, toggleLink1)">Ver menos</a>
+            </p>
+        </div>
+        <div class="col-md-6 mt-2">
+            <img class="w-100" src="../../../assets/images/rhh/1.jpg" alt="Paso 1: Crear Tablas de Inventario">
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6 order-2 order-md-1 mt-2">
+            <img class="w-100" src="../../../assets/images/rhh/2.jpg" alt="Paso 2: Registrar Movimientos de Inventario">
+        </div>
+        <div class="col-md-6  order-1 order-md-2">
+            <h2>Registro de Movimientos</h2>
+
+            <p class="fixed-1">
+                EcoQuality te permite registrar todos los movimientos de inventario, desde entradas de productos hasta
+                ventas y transferencias entre almacenes. Cada transacción queda documentada, lo que facilita el
+                seguimiento de la historia de tus productos.
+            </p>
+            <a #toggleLink2 role="button" class="link-primary float-end" (click)="toggle(desc2, toggleLink2)">Ver más</a>
+            <p #desc2 class="desc-1">
+                Esto proporciona una visibilidad completa de tus operaciones de inventario y te ayuda a tomar decisiones
+                informadas sobre reordenar productos o ajustar tu estrategia de almacenamiento.
+                <a #toggleLink2 role="button" class="link-primary float-end" (click)="toggle(desc2, toggleLink2)">Ver menos</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Continuar describiendo los pasos a medida que sea necesario -->
+
+</div>

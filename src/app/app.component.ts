@@ -29,4 +29,9 @@ export class AppComponent {
   navigateToApp(){
     window.location.href = 'https://eq-quality-erp-app.vercel.app/auth/signup';
   }
+
+  navigate(link: string){
+    this.router.navigate([link]);
+    window.scrollTo(0, 0);
+  }
 }
